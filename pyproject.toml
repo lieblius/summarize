@@ -7,7 +7,22 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+langchain = "^0.2.12"
+openai = "^1.40.1"
+tiktoken = "^0.7.0"
+fpdf2 = "^2.7.9"
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+black = "^24.8.0"
+langchain-community = "^0.2.11"
+pypdf = "^4.3.1"
+langchain-openai = "^0.1.20"
+langchain-experimental = "^0.0.64"
+faiss-cpu = "^1.8.0.post1"
 
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = "^0.0.28"
 
 [build-system]
 requires = ["poetry-core"]

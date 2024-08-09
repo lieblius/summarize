@@ -141,3 +141,4 @@ static/
 .env
 .env-local
 
+*.pdf

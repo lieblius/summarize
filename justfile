@@ -6,3 +6,5 @@ setup:
     @poetry check &> /dev/null || poetry install
 update:
     @poetry install
+fmt:
+    @poetry run python -m black .
